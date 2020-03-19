@@ -1,9 +1,16 @@
 import { Injectable } from '@angular/core';
-
-@Injectable({
-  providedIn: 'root'
-})
+import Pusher from "pusher-js";
+// declare const Pusher: any;
+@Injectable()
 export class PusherService {
-
-  constructor() { }
+  constructor() {
+    const pusher = new Pusher('PUSHER_KEY', {
+      cluster: 'ap2',
+    });
+    this.channel = pusher.subscribe('painting');
+  }
+  channel;
+  public init() {
+    return this.channel;
+  }
 }
