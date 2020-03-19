@@ -1,6 +1,6 @@
 # CollaborativePaintApp
 
-This project is implementation of [this article] (https://www.pusher.com/tutorials/collaborative-painting-angular) and was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+This project is implementation of [this article](https://www.pusher.com/tutorials/collaborative-painting-angular) and was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
 
 ## Steps - 
 1. clone
