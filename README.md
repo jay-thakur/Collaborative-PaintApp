@@ -1,10 +1,18 @@
 # CollaborativePaintApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+This project is implementation of [this article] (https://www.pusher.com/tutorials/collaborative-painting-angular) and was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+
+## Steps - 
+1. clone
+2. `npm install` 
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Make sure you are running in 2 terminal as follows.
+
+Run `ng serve` for a client dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+Run `node server` for a dev server. this will be running on `http://localhost:4000/`. 
 
 ## Code scaffolding
 
